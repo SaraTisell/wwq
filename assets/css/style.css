@@ -3,6 +3,7 @@
 
 body {
     min-height: 100vh;
+    font-family: 'Prompt', sans-serif;
 }
 section {
     background-color: blanchedalmond;
@@ -13,4 +14,6 @@ div {
 }
 h1 {
     color: grey;
+    font-size: 1rem;
 }
+

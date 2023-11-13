@@ -8,7 +8,12 @@ body {
     background-color: #ffffff;
 }
 
-div {
+.rule-holder {
+    border: 2px solid #545454;
+    box-shadow: 0.5px 2px #737373;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
     
 }
 
@@ -21,3 +26,11 @@ div {
     font-weight: 500;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #0CC0DF;
+    height: 8vh;
+    width: 100%;
+}

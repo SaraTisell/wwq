@@ -8,15 +8,18 @@ body {
     background-color: #ffffff;
 }
 
+/* Home Page */
+
+/* Section for rules at home page*/
 .rule-holder {
     border: 2px solid #545454;
     box-shadow: 0.5px 2px #737373;
     padding: 10px;
     margin-top: 20px;
     text-align: center;
-    
 }
 
+/* Buttom for "Do the Quiz"*/
 #do-quiz {
     border: 2px solid #0CC0DF;
     background-color: #6DEAFF;
@@ -26,6 +29,16 @@ body {
     font-weight: 500;
 }
 
+/* Section for game at quiz page*/
+.game-holder {
+    border: 2px solid #545454;
+    box-shadow: 0.5px 2px #737373;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*Footer*/
 footer {
     position: fixed;
     bottom: 0;
@@ -34,3 +47,18 @@ footer {
     height: 8vh;
     width: 100%;
 }
+
+/* Social Media TEST
+#social-media {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding:0 20px;
+}
+#social-media i {
+    color: #545454;
+    font-size: 180%;
+    padding-right: 40px;
+    
+} */

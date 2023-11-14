@@ -21,7 +21,7 @@ const quizQuestions = [
     },
     {
         question: 'When was Netflix founded?',
-        options: ['1997, '2005', '2011'],
+        options: ['1997', '2005', '2011'],
         answer: '1997',
     },
 ]

@@ -19,14 +19,30 @@ body {
     text-align: center;
 }
 
-/* Buttom for "Do the Quiz"*/
-#do-quiz {
+/* Buttons */
+button {
     border: 2px solid #0CC0DF;
     background-color: #6DEAFF;
     color: #737373;
     font-family: 'Prompt', sans-serif;
     font-size: 2vh;
     font-weight: 500;
+    margin-top: 10px;
+}
+
+
+/* Quiz Page*/
+
+/* Timer */
+#timer {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    border: 2px solid #0CC0DF;
+    color: #545454;
+    background-color: #6DEAFF;
+    text-align: center;
+    margin: auto;
 }
 
 /* Section for game at quiz page*/

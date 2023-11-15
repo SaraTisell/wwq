@@ -27,17 +27,44 @@ const quizQuestions = [
 ]
 
 let questionIndex = 0;
+let optionsIndex = 0;
+let count = 10;
+
 
 function startQuiz() {
     showQuestion();
+    showOptions();
+    startTimer();
 }
 
 function showQuestion() {
     const divQuestion = document.getElementById('questions');
 
-
     divQuestion.innerHTML = quizQuestions[questionIndex].question;
 
+}
+
+function showOptions() {
+    const divOptions = document.getElementById('options');
+
+    divOptions.innerHTML = quizQuestions[optionsIndex].options;
+}
+
+function startTimer() {
+    const divTimer = document.getElementById('timer');
+
+    
+
+    const timer = setInterval(function() {
+        count --;
+        console.log(count);
+        if (count === 0) {
+            clearInterval(timer);
+            //move to next question
+        }
+    }, 1000);
+
+    
 }
 
 startQuiz();

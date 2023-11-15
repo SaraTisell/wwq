@@ -1,3 +1,4 @@
+// Array for questions, options and answers
 const quizQuestions = [
     {
         question: 'How many countries is there in the World today?',
@@ -29,15 +30,17 @@ const quizQuestions = [
 let questionIndex = 0;
 let optionsIndex = 0;
 let count = 10;
+let score = 0;
 
 
- 
+ // Functions to start the quiz by display questions and options for answers
 function startQuiz() {
     showQuestion();
     showOptions(quizQuestions[0].options);
     startTimer();
 }
 
+// Display questions 
 function showQuestion() {
     const divQuestion = document.getElementById('questions');
     
@@ -45,9 +48,10 @@ function showQuestion() {
 
 }
 
+// Display answers options for each question
 function showOptions(options) {
-    /* const divOptions = document.getElementById('options'); */
 
+    
     const option1Btn = document.getElementById('option1');
     const option2Btn = document.getElementById('option2');
     const option3Btn = document.getElementById('option3');
@@ -69,7 +73,10 @@ function showOptions(options) {
     }
 }
 
-
+/**
+ * Timer to count down from 10
+ * Move on to the next question if timer runs down to 0
+ */ 
 function startTimer() {
  //Part borrowed from https://www.shecodes.io/athena/52336-how-to-create-a-countdown-timer-in-javascript 
   

@@ -85,6 +85,11 @@ function startTimer() {
                 showQuestion();
                 showOptions(quizQuestions[questionIndex].options);
                 
+                count = 10;
+
+                startTimer();
+            } else {
+                /*Quiz Complete*/ 
             }
 
         }

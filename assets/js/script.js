@@ -51,11 +51,14 @@ function showOptions() {
 }
 
 function startTimer() {
-    const divTimer = document.getElementById('timer');
+  /*  const divTimer = document.getElementById('timer'); */
 
     
 
+ //Borrowed part from https://www.shecodes.io/athena/52336-how-to-create-a-countdown-timer-in-javascript 
+  
     const timer = setInterval(function() {
+        document.getElementById('timer').innerHTML = `${count}`;
         count --;
         console.log(count);
         if (count === 0) {

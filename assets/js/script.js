@@ -31,6 +31,9 @@ let optionsIndex = 0;
 let count = 10;
 
 
+ 
+
+
 function startQuiz() {
     showQuestion();
     showOptions();
@@ -39,6 +42,7 @@ function startQuiz() {
 
 function showQuestion() {
     const divQuestion = document.getElementById('questions');
+    
 
     divQuestion.innerHTML = quizQuestions[questionIndex].question;
 
@@ -46,8 +50,11 @@ function showQuestion() {
 
 function showOptions() {
     const divOptions = document.getElementById('options');
+    const optionBtns = quizQuestions[optionsIndex].options;
 
-    divOptions.innerHTML = quizQuestions[optionsIndex].options;
+    
+    
+
 }
 
 function startTimer() {
@@ -57,7 +64,7 @@ function startTimer() {
         document.getElementById('timer').innerHTML = `${count}`;
         count --;
         console.log(count);
-        if (count === 0) {
+        if (count === -1) {
             clearInterval(timer);
 
             questionIndex++;

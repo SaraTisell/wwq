@@ -32,29 +32,40 @@ let count = 10;
 
 
  
-
-
 function startQuiz() {
     showQuestion();
-    showOptions();
+    showOptions(quizQuestions[0].options);
     startTimer();
 }
 
 function showQuestion() {
     const divQuestion = document.getElementById('questions');
     
-
     divQuestion.innerHTML = quizQuestions[questionIndex].question;
-
 }
 
-function showOptions() {
-    const divOptions = document.getElementById('options');
-    const optionBtns = quizQuestions[optionsIndex].options;
+function showOptions(options) {
+    /* const divOptions = document.getElementById('options'); */
 
-    
-    
+    const option1Btn = document.getElementById('option1');
+    const option2Btn = document.getElementById('option2');
+    const option3Btn = document.getElementById('option3');
 
+    const option1Label = document.querySelector('label[for="option1"]');
+    const option2Label = document.querySelector('label[for="option2"]');
+    const option3Label = document.querySelector('label[for="option3"]');
+
+    if (options.length >= 3) {
+        option1Label.textContent = options[0];
+        option1Btn.value = options[0];
+
+        option2Label.textContent = options[1];
+        option2Btn.value = options[1];
+
+        option3Label.textContent = options[2];
+        option3Btn.value = options[2];
+
+    }
 }
 
 function startTimer() {

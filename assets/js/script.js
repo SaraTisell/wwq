@@ -42,6 +42,7 @@ function showQuestion() {
     const divQuestion = document.getElementById('questions');
     
     divQuestion.innerHTML = quizQuestions[questionIndex].question;
+
 }
 
 function showOptions(options) {
@@ -68,6 +69,7 @@ function showOptions(options) {
     }
 }
 
+
 function startTimer() {
  //Part borrowed from https://www.shecodes.io/athena/52336-how-to-create-a-countdown-timer-in-javascript 
   
@@ -81,6 +83,7 @@ function startTimer() {
             questionIndex++;
             if (questionIndex < quizQuestions.length) {
                 showQuestion();
+                showOptions(quizQuestions[questionIndex].options);
                 
             }
 

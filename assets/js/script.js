@@ -26,32 +26,18 @@ const quizQuestions = [
     },
 ]
 
-let currentQuestionIndex = 0;
-let score = 0;
-let timer;
+let questionIndex = 0;
 
 function startQuiz() {
     showQuestion();
-    timer = setInterval(updateTimer, 1000);
 }
 
 function showQuestion() {
     const divQuestion = document.getElementById('questions');
-    const divOptions = document.getElementById('options');
 
-    divQuestion.innerHTML = quizQuestions[currentQuestionIndex].question;
-    divOptions.innerHTML = '';
 
-    quizQuestions[currentQuestionIndex].options.forEach((option, index) => {
-        const label = document.createElement('label');
-        const radioBtn = document.createElement('input');
-        radioBtn.type = 'radio';
-        radioBtn.name ='answer';
-        radioBtn.value = option;
+    divQuestion.innerHTML = quizQuestions[questionIndex].question;
 
-        label.appendChild(radioBtn);
-        label.appendChild(document.createTextNode(option));
-
-        divOptions.appendChild(label);
-     });
 }
+
+startQuiz();

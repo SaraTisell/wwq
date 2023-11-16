@@ -32,6 +32,7 @@ let count = 10;
 let score = 0;
 
 
+
  // Functions to start the quiz by display questions and options for answers
 function startQuiz() {
     showQuestion();
@@ -71,8 +72,8 @@ optionBtn.forEach(function (button) {
         if (quizQuestionsIndex < quizQuestions.length) {
             showQuestion();
             showOptions();
-            clearInterval(timer);
-            startTimer();
+            
+            
 
         } else {
             /*Quiz Complete*/
@@ -101,21 +102,25 @@ function startTimer() {
             if (quizQuestionsIndex < quizQuestions.length) {
                 showQuestion();
                 showOptions();
-                
-                count = 10;
+               
 
-                
+               count = 10;
                 startTimer();
+
             } else {
                 /*Quiz Complete*/ 
             }
-
         }
     }, 1000);
-
-    
 }
 
 
+function score () {
+
+}
+
+function displayScore() {
+    
+}
 
 startQuiz();

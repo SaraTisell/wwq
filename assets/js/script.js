@@ -61,16 +61,38 @@ function showOptions() {
 
 }
 
+// Buttons click
+// Part borrowed from https://byby.dev/js-add-event-listener
+const optionBtn = document.querySelectorAll(".quizOptions");
+
+optionBtn.forEach(function (button) {
+    button.addEventListener("click", function () {
+        quizQuestionsIndex++;
+        if (quizQuestionsIndex < quizQuestions.length) {
+            showQuestion();
+            showOptions();
+            clearInterval(timer);
+            startTimer();
+
+        } else {
+            /*Quiz Complete*/
+        }
+    });
+});
+
+
+
 /**
  * Timer to count down from 10
  * Move on to the next question if timer runs down to 0
  */ 
 function startTimer() {
  //Part borrowed from https://www.shecodes.io/athena/52336-how-to-create-a-countdown-timer-in-javascript 
-  
+
     const timer = setInterval(function() {
         document.getElementById('timer').innerHTML = `${count}`;
         count --;
+        // delete later
         console.log(count);
         if (count === -1) {
             clearInterval(timer);
@@ -82,6 +104,7 @@ function startTimer() {
                 
                 count = 10;
 
+                
                 startTimer();
             } else {
                 /*Quiz Complete*/ 
@@ -92,5 +115,7 @@ function startTimer() {
 
     
 }
+
+
 
 startQuiz();

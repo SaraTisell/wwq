@@ -27,8 +27,7 @@ const quizQuestions = [
     },
 ]
 
-let questionIndex = 1;
-let optionsIndex = 0;
+let quizQuestionsIndex = 0;
 let count = 10;
 let score = 0;
 
@@ -36,41 +35,30 @@ let score = 0;
  // Functions to start the quiz by display questions and options for answers
 function startQuiz() {
     showQuestion();
-    showOptions(quizQuestions[0].options);
+    showOptions();
     startTimer();
 }
 
 // Display questions 
 function showQuestion() {
     const divQuestion = document.getElementById('questions');
-    
-    divQuestion.innerHTML = quizQuestions[questionIndex].question;
+    const questionNum = document.getElementById('question-num')
+    questionNum.innerHTML = quizQuestionsIndex +1;
+    divQuestion.innerHTML = quizQuestions[quizQuestionsIndex].question;
 
 }
 
 // Display answers options for each question
-function showOptions(options) {
+function showOptions() {
 
-    
     const option1Btn = document.getElementById('option1');
     const option2Btn = document.getElementById('option2');
     const option3Btn = document.getElementById('option3');
 
-    const option1Label = document.querySelector('label[for="option1"]');
-    const option2Label = document.querySelector('label[for="option2"]');
-    const option3Label = document.querySelector('label[for="option3"]');
+    option1Btn.innerHTML = quizQuestions[quizQuestionsIndex].options[0];
+    option2Btn.innerHTML = quizQuestions[quizQuestionsIndex].options[1];
+    option3Btn.innerHTML = quizQuestions[quizQuestionsIndex].options[2];
 
-    if (options.length >= 3) {
-        option1Label.textContent = options[0];
-        option1Btn.value = options[0];
-
-        option2Label.textContent = options[1];
-        option2Btn.value = options[1];
-
-        option3Label.textContent = options[2];
-        option3Btn.value = options[2];
-
-    }
 }
 
 /**
@@ -87,10 +75,10 @@ function startTimer() {
         if (count === -1) {
             clearInterval(timer);
 
-            questionIndex++;
-            if (questionIndex < quizQuestions.length) {
+            quizQuestionsIndex++;
+            if (quizQuestionsIndex < quizQuestions.length) {
                 showQuestion();
-                showOptions(quizQuestions[questionIndex-1].options);
+                showOptions();
                 
                 count = 10;
 

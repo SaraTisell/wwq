@@ -27,7 +27,7 @@ const quizQuestions = [
     },
 ]
 
-let questionIndex = 0;
+let questionIndex = 1;
 let optionsIndex = 0;
 let count = 10;
 let score = 0;
@@ -90,7 +90,7 @@ function startTimer() {
             questionIndex++;
             if (questionIndex < quizQuestions.length) {
                 showQuestion();
-                showOptions(quizQuestions[questionIndex].options);
+                showOptions(quizQuestions[questionIndex-1].options);
                 
                 count = 10;
 

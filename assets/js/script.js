@@ -74,6 +74,7 @@ optionBtn.forEach(function (button) {
             showOptions();
             
             
+            
 
         } else {
             /*Quiz Complete*/
@@ -114,12 +115,7 @@ function startTimer() {
     }, 1000);
 }
 
-
-function score () {
-
-}
-
-function displayScore() {
+function showScore() {
     
 }
 

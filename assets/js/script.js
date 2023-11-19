@@ -30,6 +30,8 @@ const quizQuestions = [
 let quizQuestionsIndex = 0;
 let count = 10;
 let score = 0;
+let timer;
+
 
 
 
@@ -72,7 +74,11 @@ optionBtn.forEach(function (button) {
         if (quizQuestionsIndex < quizQuestions.length) {
             showQuestion();
             showOptions();
-            
+            clearInterval(timer);
+            count = 10;
+            startTimer();
+           
+
             
             
 
@@ -88,12 +94,14 @@ optionBtn.forEach(function (button) {
  * Timer to count down from 10
  * Move on to the next question if timer runs down to 0
  */ 
+
+
 function startTimer() {
  //Part borrowed from https://www.shecodes.io/athena/52336-how-to-create-a-countdown-timer-in-javascript 
 
-    const timer = setInterval(function() {
+        timer = setInterval(function() {
         document.getElementById('timer').innerHTML = `${count}`;
-        count --;
+         count --;
         // delete later
         console.log(count);
         if (count === -1) {
@@ -103,17 +111,18 @@ function startTimer() {
             if (quizQuestionsIndex < quizQuestions.length) {
                 showQuestion();
                 showOptions();
-               
-
-               count = 10;
+                count = 10;
                 startTimer();
 
             } else {
                 /*Quiz Complete*/ 
             }
+        
         }
     }, 1000);
 }
+
+
 
 function showScore() {
     

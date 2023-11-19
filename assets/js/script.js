@@ -70,6 +70,9 @@ const optionBtn = document.querySelectorAll(".quizOptions");
 
 optionBtn.forEach(function (button) {
     button.addEventListener("click", function () {
+        
+       checkAnswer();
+        
         quizQuestionsIndex++;
         if (quizQuestionsIndex < quizQuestions.length) {
             showQuestion();
@@ -87,6 +90,11 @@ optionBtn.forEach(function (button) {
         }
     });
 });
+
+function checkAnswer() {
+    let correctAnswer = quizQuestions[quizQuestionsIndex].answer;
+
+}
 
 
 
@@ -121,6 +129,7 @@ function startTimer() {
         }
     }, 1000);
 }
+
 
 
 

@@ -102,6 +102,25 @@ button {
     width: 30vh;
 }
 
+#score-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    border: 2px solid #0CC0DF;
+    color: #4d4d4d;
+    background-color: #ccf8ff; 
+    margin: auto;
+    font-size: 1.2em;
+    
+}
+
+#score{
+    text-align: center;
+}
+
 /*Footer*/
 footer {
     position: fixed;

@@ -125,6 +125,7 @@ function checkAnswer(selectedAnswer) {
         increseScore();
         console.log('correct');
     } else {
+        decreseScore();
         console.log('wrong');
     }
 
@@ -175,6 +176,15 @@ function increseScore() {
     document.getElementById('score').innerText = ++userScore;  
 }
 
+function decreseScore() {
+    //Part borrowed from Love Maths Walkthrough Project
+    let userScore = parseInt(document.getElementById('score').innerText);
+    
+    if (userScore >= 1) {
+        document.getElementById('score').innerText = --userScore;
+    }
+
+}
 
 
 startQuiz();

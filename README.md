@@ -11,4 +11,7 @@ For question array syntax
 https://byby.dev/js-add-event-listener
 For add event listeners to buttons
 
+https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
+To show result after quiz
+
 Function to increse user score borrowed from Love Maths Walkthrough Project

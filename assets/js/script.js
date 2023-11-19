@@ -1,4 +1,8 @@
-// Array for questions, options and answers
+/**
+ * Array for questions, options and answers
+ * Array syntax for questions, options and answers borrowed from 
+ * https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
+ * */
 const quizQuestions = [
     {
         question: 'How many countries is there in the World today?',

@@ -12,8 +12,8 @@ const quizQuestions = [
     },
     {
         question: 'Who invented the World Wide Web, and when?',
-        options: ['Thomas Eddison, 1978', 'Tim Berners-Lee, 1990 ', 'Alice Jameson, 1989'],
-        answer: 'Tim Berners-Lee, 1990',
+        options: ['Tim Berners-Lee, 1990 ', 'Thomas Eddison, 1978', 'Alice Jameson, 1989'],
+        answer: 'Tim Berners-Lee, 1990 ',
     },
     {
         question: 'What was the clothing company Nike originally called?',
@@ -29,7 +29,6 @@ const quizQuestions = [
 
 let quizQuestionsIndex = 0;
 let count = 10;
-let score = 0;
 let timer;
 
 
@@ -45,7 +44,7 @@ function startQuiz() {
 // Display questions 
 function showQuestion() {
     const divQuestion = document.getElementById('questions');
-    const questionNum = document.getElementById('question-num')
+    const questionNum = document.getElementById('question-num');
     questionNum.innerHTML = quizQuestionsIndex +1;
     divQuestion.innerHTML = quizQuestions[quizQuestionsIndex].question;
 
@@ -80,9 +79,6 @@ optionBtn.forEach(function (button) {
             clearInterval(timer);
             count = 10;
             startTimer();
-           
-
-            
             
 
         } else {
@@ -95,9 +91,10 @@ function checkAnswer(selectedAnswer) {
     let correctAnswer = quizQuestions[quizQuestionsIndex].answer;
 
     if (selectedAnswer === correctAnswer) {
-        console.log('correct mf');
+        increseScore();
+        console.log('correct');
     } else {
-        console.log('wrong mf');
+        console.log('wrong');
     }
 
 }
@@ -138,9 +135,13 @@ function startTimer() {
 
 
 
-
-function showScore() {
-    
+/**
+ * Function to increser score for every right answer the user gets
+ */
+function increseScore() {
+    // Borrowed from Love Maths project
+    let userScore = parseInt(document.getElementById('score').innerText);
+    document.getElementById('score').innerText = ++userScore;  
 }
 
 startQuiz();

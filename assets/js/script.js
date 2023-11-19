@@ -71,7 +71,7 @@ const optionBtn = document.querySelectorAll(".quizOptions");
 optionBtn.forEach(function (button) {
     button.addEventListener("click", function () {
         
-       checkAnswer();
+       checkAnswer(button.textContent);
         
         quizQuestionsIndex++;
         if (quizQuestionsIndex < quizQuestions.length) {
@@ -91,8 +91,14 @@ optionBtn.forEach(function (button) {
     });
 });
 
-function checkAnswer() {
+function checkAnswer(selectedAnswer) {
     let correctAnswer = quizQuestions[quizQuestionsIndex].answer;
+
+    if (selectedAnswer === correctAnswer) {
+        console.log('correct mf');
+    } else {
+        console.log('wrong mf');
+    }
 
 }
 

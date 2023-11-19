@@ -170,7 +170,7 @@ function startTimer() {
  * Function to increser score for every right answer the user gets
  */
 function increseScore() {
-    // Borrowed from Love Maths project
+    // Borrowed from Love Maths Walkthrough Project
     let userScore = parseInt(document.getElementById('score').innerText);
     document.getElementById('score').innerText = ++userScore;  
 }

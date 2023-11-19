@@ -7,3 +7,8 @@ For timer function
 
 https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
 For question array syntax
+
+https://byby.dev/js-add-event-listener
+For add event listeners to buttons
+
+Function to increse user score borrowed from Love Maths Walkthrough Project

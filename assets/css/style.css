@@ -8,8 +8,42 @@ body {
     background-color: #ffffff;
 }
 
+li {
+    font-size: smaller;
+}
+
+
 
 /* Home Page */
+
+/* Modal for rules*/
+/*Borrowed from https://www.w3schools.com/howto/howto_css_modals.asp*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rbg(0,0,0,0.4);
+}
+
+.rulesContent {
+    background-color: #ccf8ff;
+    margin: 15% auto;
+    padding-right: 10px;
+    border: 2px solid #0CC0DF;
+    width: 75%;
+}
+
+#close i {
+    float: right;
+    color: #0CC0DF;
+
+}
 
 /* Section for rules at home page*/
 .rule-holder {

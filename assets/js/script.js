@@ -175,4 +175,29 @@ function increseScore() {
     document.getElementById('score').innerText = ++userScore;  
 }
 
+/**
+ * Modal with rules borrowed from https://www.w3schools.com/howto/howto_css_modals.asp
+ */
+var modal = document.getElementById("rulesModal");
+
+var rulesBtn = document.getElementById("displayRules");
+
+var spanToClose = document.getElementById("close");
+
+rulesBtn.onclick = function() {
+    modal.style.display = "block";
+    console.log('test');
+}
+
+spanToClose.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+
+}
+
 startQuiz();

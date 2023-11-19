@@ -32,6 +32,7 @@
             <!-- Borrowed from https://www.w3schools.com/howto/howto_css_modals.asp -->
             <!-- Button to open modal with rules -->
             <button id="displayRules">Rules</button>
+            <a href="quiz.html"><button>Do the Quiz</button></a>
             <!-- Modal with rules-->
             <div id="rulesModal" class="modal">
             <!-- Content for rules -->
@@ -64,6 +65,28 @@
     </footer>
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/c782e5ed24.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
+    <script>/**
+        * Modal with rules borrowed from https://www.w3schools.com/howto/howto_css_modals.asp
+        */
+       var modal = document.getElementById("rulesModal");
+       
+       var rulesBtn = document.getElementById("displayRules");
+       
+       var spanToClose = document.getElementById("close");
+       
+       rulesBtn.onclick = function() {
+           modal.style.display = "block";
+       }
+       
+       spanToClose.onclick = function() {
+           modal.style.display = "none";
+       }
+       
+       window.onclick = function(event) {
+           if (event.target == modal) {
+               modal.style.display = "none";
+           }
+       
+       }</script>
 </body>
 </html>

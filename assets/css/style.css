@@ -29,19 +29,22 @@ li {
     height: 100%;
     overflow: hidden;
     background: rbg(0,0,0,0.4);
+    text-align: left;
 }
 
 .rulesContent {
     background-color: #ccf8ff;
     margin: 15% auto;
-    padding-right: 10px;
+    padding: 10px 10px 0 0;
     border: 2px solid #0CC0DF;
     width: 75%;
+    
 }
 
 #close i {
     float: right;
     color: #0CC0DF;
+    
 
 }
 

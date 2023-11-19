@@ -25,6 +25,33 @@ const quizQuestions = [
         options: ['1997', '2005', '2011'],
         answer: '1997',
     },
+    {
+        question: 'What country has the most islands in the world?',
+        options: ['Norway', 'Denmark', 'Sweden'],
+        answer: 'Sweden',
+    },
+    {
+        question: 'When did they open the London underground?',
+        options: ['1853', '1863', '1893'],
+        answer: '1863',
+    },
+    {
+        question: 'Who invented the iconic Little Black Dress?',
+        options: ['Coco Chanel', 'Christian Dior', 'Michael Kors'],
+        answer: 'Coco Chanel',
+    },
+    {
+        question: 'How many keys does a classic piano have?',
+        options: ['88', '100', '108'],
+        answer: '88',
+    },
+    {
+        question: 'What is the name of the coffee shop in the sitcom Friends? ?',
+        options: ['Central Park', 'Central Perk', 'Central Coffee'],
+        answer: 'Central Perk',
+    },
+
+
 ]
 
 let quizQuestionsIndex = 0;

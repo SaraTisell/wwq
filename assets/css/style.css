@@ -55,6 +55,10 @@ button {
     text-align: center;
 }
 
+.quizOptions {
+    width: 30vh;
+}
+
 /*Footer*/
 footer {
     position: fixed;

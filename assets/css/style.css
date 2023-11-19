@@ -36,14 +36,18 @@ button {
 
 /* Timer */
 #timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
     border: 2px solid #0CC0DF;
     color: #545454;
-    background-color: #6DEAFF;
-    text-align: center;
+    background-color: #6DEAFF; 
     margin: auto;
+    font-size: 1.5em;
+    
 }
 
 /* Section for game at quiz page*/

@@ -68,9 +68,10 @@ let timer;
 
  // Functions to start the quiz by display questions and options for answers
 function startQuiz() {
+    startTimer();
     showQuestion();
     showOptions();
-    startTimer();
+    
 }
 
 // Display questions 
@@ -106,11 +107,12 @@ optionBtn.forEach(function (button) {
         
         quizQuestionsIndex++;
         if (quizQuestionsIndex < quizQuestions.length) {
-            showQuestion();
-            showOptions();
             clearInterval(timer);
             count = 10;
             startTimer();
+            showQuestion();
+            showOptions();
+            
             
 
         } else {
@@ -153,10 +155,10 @@ function startTimer() {
 
             quizQuestionsIndex++;
             if (quizQuestionsIndex < quizQuestions.length) {
-                showQuestion();
-                showOptions();
                 count = 10;
                 startTimer();
+                showQuestion();
+                showOptions();
 
             } else {
                 showResult();

@@ -49,7 +49,7 @@ li {
 }
 
 /* Section for rules at home page*/
-.rule-holder {
+.rule_holder {
     border: 2px solid #545454;
     box-shadow: 0.5px 2px #737373;
     padding: 10px;
@@ -90,7 +90,7 @@ button {
 }
 
 /* Section for game at quiz page*/
-.game-holder {
+.game_holder {
     border: 2px solid #545454;
     box-shadow: 0.5px 2px #737373;
     padding: 10px;
@@ -102,7 +102,82 @@ button {
     width: 30vh;
 }
 
-#score-holder {
+/*Result section*/
+/* Borrowed from https://www.codingnepalweb.com/quiz-app-with-timer-javascript/ */
+.show_result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0.5px 2px #737373; 
+}
+
+.show_result.activeResult {
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.show_result {
+    background-color: #ffffff;
+    display: flex;
+    padding: 25ps 30px;
+    width: ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+
+}
+
+.ikon i {
+    font-size: 100px;
+    color: #0CC0DF;
+    margin-bottom: 10px;
+
+}
+
+.show_result .quiz_complete {
+    font-size: 20px;
+}
+
+.show_result .total_score span {
+    display: flex;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.show_result .total_score span p{
+    padding: 0 4px;
+    font-weight: 600;
+}
+
+.show_result .buttons {
+    display: flex;
+    margin: 20px 0;
+}
+
+.show_result .buttons button {
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+
+}
+
+
+#score_holder {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,14 +209,14 @@ footer {
 
 
 /* Social Media TEST
-#social-media {
+#social_media {
     text-align: center;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     padding:0 20px;
 }
-#social-media i {
+#social_media i {
     color: #545454;
     font-size: 180%;
     padding-right: 40px;

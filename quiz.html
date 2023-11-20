@@ -31,10 +31,10 @@
     
         <!--Quiz Display-->
         
-        <div class="game-holder">
+        <div class="game_holder">
             <!--Timer-->
         <div id="timer"></div>
-            <h1>Question <span id="question-num">1</span></h1>
+            <h1>Question <span id="question_num">1</span></h1>
         <!--Display question-->    
             <div id="questions"></div>
             <div id="options">
@@ -47,20 +47,27 @@
                 <button id="option3" class="quizOptions"></button>
             </div>
         </div>
-        
+    <!-- Results -->    
    <!-- Borrowed from https://www.codingnepalweb.com/quiz-app-with-timer-javascript/ -->
-        <div class="showResult">
-        <!-- Score -->
+        <div class="show_result">
+            <div class="ikon"><i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="quiz_complete">You have answered all questions!</div>
+            <div class="total_score"></div>
+            <div id="score"></div>
+        <!-- Score 
            <div id="score-holder"><span>Score<div id="score">0</div></span>
-           </div>
+           </div> -->
         <!--Play again button-->
+        <div class="buttons">
          <a href="quiz.html">
-         <button id="playAgain">Play Again</button>
+         <button id="play_again">Play Again</button>
          </a>
          <br>
         <!--Back to home page after quiz-->
-         <a href="index.html"><button id="back-home">Go to Home</button>
+         <a href="index.html"><button id="back_home">Go to Home</button>
          </a>
+        </div>
         
         </div>
             

@@ -61,6 +61,7 @@ const quizQuestions = [
 let quizQuestionsIndex = 0;
 let count = 10;
 let timer;
+let userScore = 0;
 
 
 
@@ -75,7 +76,7 @@ function startQuiz() {
 // Display questions 
 function showQuestion() {
     const divQuestion = document.getElementById('questions');
-    const questionNum = document.getElementById('question-num');
+    const questionNum = document.getElementById('question_num');
     questionNum.innerHTML = quizQuestionsIndex +1;
     divQuestion.innerHTML = quizQuestions[quizQuestionsIndex].question;
 
@@ -113,7 +114,7 @@ optionBtn.forEach(function (button) {
             
 
         } else {
-            /*Quiz Complete*/
+            showResult();
         }
     });
 });
@@ -158,7 +159,7 @@ function startTimer() {
                 startTimer();
 
             } else {
-                /*Quiz Complete*/ 
+                showResult();
             }
         
         }
@@ -171,20 +172,41 @@ function startTimer() {
  * Function to increser score for every right answer the user gets
  */
 function increseScore() {
-    // Borrowed from Love Maths Walkthrough Project
-    let userScore = parseInt(document.getElementById('score').innerText);
-    document.getElementById('score').innerText = ++userScore;  
+    // Part borrowed from Love Maths Walkthrough Project
+    userScore = parseInt(document.getElementById('score').innerText) +1; 
+    document.getElementById('score').innerText = userScore;  
 }
 
 function decreseScore() {
     //Part borrowed from Love Maths Walkthrough Project
-    let userScore = parseInt(document.getElementById('score').innerText);
+    userScore = parseInt(document.getElementById('score').innerText); 
     
     if (userScore >= 1) {
-        document.getElementById('score').innerText = --userScore;
+        userScore -= 1;
+        document.getElementById('score').innerText = userScore;
     }
 
 }
 
+/**
+ * Section to show results when quiz is complete
+ * Borrowed from https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
+ */
+const show_result = document.querySelector(".show_result");
+function showResult() {
+    show_result.classList.add("activeResult");
+    const totalScore = show_result.querySelector(".total_score");
+    if (userScore > 5) {
+        let scoreTag = '<span>and congrats! , You got <p>'+ userScore +'</p> out of <p>'+ quizQuestions.length +'</p></span>';
+        totalScore.innerHTML = scoreTag;
+    } else if (userScore > 1) {
+        let scoreTag = '<span>and nice , You got <p>'+ userScore +'</p> out of <p>'+ quizQuestions.length +'</p></span>';
+        totalScore.innerHTML = scoreTag;
+    } else {
+        let scoreTag = '<span>and sorry , You got only <p>'+ userScore +'</p> out of <p>'+ quizQuestions.length +'</p></span>';
+        totalScore.innerHTML = scoreTag;
+    }
+
+}
 
 startQuiz();

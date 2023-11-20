@@ -1,4 +1,20 @@
-*** Credits
+# WWQ - World Wide Quiz
+
+World Wide Quiz or WWQ for short is a webapplication build with Javascript where the user will try their knowlegdge by answering 10 different questions of mixed genre. 
+
+![Mockup](documents/readme_img/wwq-mockup.webp)
+
+[WWQ live link](https://saratisell.github.io/wwq/)
+
+
+
+
+
+
+
+
+
+### Credits
 https://www.ef.com/wwen/blog/language/questions-virtual-pub-quiz/
 For quiz questions content
 

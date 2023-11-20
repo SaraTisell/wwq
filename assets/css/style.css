@@ -108,8 +108,7 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0.5px 2px #737373; 
+    transform: translate(-50%, -50%);  
 }
 
 .show_result.activeResult {
@@ -121,9 +120,11 @@ button {
 
 .show_result {
     background-color: #ffffff;
+    border: 2px solid #0CC0DF;
     display: flex;
     padding: 25ps 30px;
-    width: ;
+    width: 80%;
+    height: auto;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -135,28 +136,42 @@ button {
 }
 
 .ikon i {
-    font-size: 100px;
+    font-size: 70px;
     color: #0CC0DF;
-    margin-bottom: 10px;
+    margin: 10px;
 
 }
 
 .show_result .quiz_complete {
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
 }
 
-.show_result .total_score span {
+
+show_result .buttons {
     display: flex;
-    margin: 10px 0;
-    font-size: 18px;
+    justify-content: center;
+    align-items: center;
 }
 
-.show_result .total_score span p{
-    padding: 0 4px;
-    font-weight: 600;
+
+#score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    border: 2px solid #0CC0DF;
+    color: #4d4d4d;
+    background-color: #ccf8ff; 
+    margin: auto;
+    font-size: 1.2em;
+    
 }
 
-.show_result .buttons {
+
+/*.show_result .buttons {
     display: flex;
     margin: 20px 0;
 }
@@ -174,27 +189,8 @@ button {
     border: 1px solid #007bff;
     transition: all 0.3s ease;
 
-}
+}*/
 
-
-#score_holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10vh;
-    height: 10vh;
-    border-radius: 50%;
-    border: 2px solid #0CC0DF;
-    color: #4d4d4d;
-    background-color: #ccf8ff; 
-    margin: auto;
-    font-size: 1.2em;
-    
-}
-
-#score{
-    text-align: center;
-}
 
 /*Footer*/
 footer {

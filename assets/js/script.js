@@ -61,7 +61,7 @@ const quizQuestions = [
 let quizQuestionsIndex = 0;
 let count = 10;
 let timer;
-let userScore = 0;
+
 
 
 
@@ -173,17 +173,16 @@ function startTimer() {
  */
 function increseScore() {
     // Part borrowed from Love Maths Walkthrough Project
-    userScore = parseInt(document.getElementById('score').innerText) +1; 
-    document.getElementById('score').innerText = userScore;  
+    let userScore = parseInt(document.getElementById('total-score').innerText);
+    document.getElementById('total-score').innerText = ++userScore; 
 }
 
 function decreseScore() {
     //Part borrowed from Love Maths Walkthrough Project
-    userScore = parseInt(document.getElementById('score').innerText); 
+    let userScore = parseInt(document.getElementById('total-score').innerText);
     
     if (userScore >= 1) {
-        userScore -= 1;
-        document.getElementById('score').innerText = userScore;
+        document.getElementById('total-score').innerText = --userScore;
     }
 
 }
@@ -195,17 +194,6 @@ function decreseScore() {
 const show_result = document.querySelector(".show_result");
 function showResult() {
     show_result.classList.add("activeResult");
-    const totalScore = show_result.querySelector(".total_score");
-    if (userScore > 5) {
-        let scoreTag = '<span>and congrats! , You got <p>'+ userScore +'</p> out of <p>'+ quizQuestions.length +'</p></span>';
-        totalScore.innerHTML = scoreTag;
-    } else if (userScore > 1) {
-        let scoreTag = '<span>and nice , You got <p>'+ userScore +'</p> out of <p>'+ quizQuestions.length +'</p></span>';
-        totalScore.innerHTML = scoreTag;
-    } else {
-        let scoreTag = '<span>and sorry , You got only <p>'+ userScore +'</p> out of <p>'+ quizQuestions.length +'</p></span>';
-        totalScore.innerHTML = scoreTag;
-    }
 
 }
 

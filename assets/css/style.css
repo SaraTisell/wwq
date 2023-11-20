@@ -167,15 +167,6 @@ button {
     text-align: center;
 }
 
-/*show_result .buttons {
-    
-}
-
-.show_result .buttons button {
-    margin-bottom: 20px;
-}*/
-
-
 #score {
     display: flex;
     justify-content: center;

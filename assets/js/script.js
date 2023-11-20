@@ -127,10 +127,10 @@ function checkAnswer(selectedAnswer) {
 
     if (selectedAnswer === correctAnswer) {
         increseScore();
-        console.log('correct');
+
     } else {
         decreseScore();
-        console.log('wrong');
+
     }
 }
 
@@ -144,8 +144,7 @@ function startTimer() {
         timer = setInterval(function() {
         document.getElementById('timer').innerHTML = `${count}`;
          count --;
-        // delete later
-        console.log(count);
+
         if (count === -1) {
             clearInterval(timer);
 

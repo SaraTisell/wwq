@@ -13,6 +13,27 @@ li {
     font-size: smaller;
 }
 
+/* For "buttons" with links */
+.div_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid #0CC0DF;
+    background-color: #ccf8ff;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.div_a a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-family: 'Prompt', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    font-size: 1rem; 
+}
+
 /* Home Page */
 
 /* Modal for rules*/
@@ -146,16 +167,13 @@ button {
     text-align: center;
 }
 
-show_result .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+/*show_result .buttons {
+    
 }
 
 .show_result .buttons button {
     margin-bottom: 20px;
-}
+}*/
 
 
 #score {

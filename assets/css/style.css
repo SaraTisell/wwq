@@ -12,13 +12,10 @@ li {
     font-size: smaller;
 }
 
-
-
 /* Home Page */
 
 /* Modal for rules*/
 /*Borrowed from https://www.w3schools.com/howto/howto_css_modals.asp*/
-
 .modal {
     display: none;
     position: fixed;
@@ -37,15 +34,13 @@ li {
     margin: 15% auto;
     padding: 10px 10px 0 0;
     border: 2px solid #0CC0DF;
-    width: 75%;
-    
+    width: 75%; 
 }
 
+/* Favicon to close modal */
 #close i {
     float: right;
     color: #0CC0DF;
-    
-
 }
 
 /* Section for rules at home page*/
@@ -66,13 +61,10 @@ button {
     font-size: 2vh;
     font-weight: 500;
     margin-top: 10px;
-    font-size: 1rem;
-    
+    font-size: 1rem; 
 }
 
-
 /* Quiz Page*/
-
 /* Timer */
 #timer {
     display: flex;
@@ -85,8 +77,7 @@ button {
     color: #4d4d4d;
     background-color: #ccf8ff; 
     margin: auto;
-    font-size: 1.2em;
-    
+    font-size: 1.2em;   
 }
 
 /* Section for game at quiz page*/
@@ -98,6 +89,7 @@ button {
     text-align: center;
 }
 
+/*Buttons for quiz options*/
 .quizOptions {
     width: 30vh;
 }
@@ -132,14 +124,12 @@ button {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
-
 }
 
 .ikon i {
     font-size: 70px;
     color: #0CC0DF;
     margin: 10px;
-
 }
 
 .show_result .quiz_complete {
@@ -166,15 +156,13 @@ show_result .buttons {
     color: #4d4d4d;
     background-color: #ccf8ff; 
     margin: auto;
-    font-size: 1.2em;
-    
+    font-size: 1.2em;  
 }
 
 /* 404 page */
 
 .error h1 {
     font-size: larger;
-
 }
 
 
@@ -190,25 +178,28 @@ footer {
 
 
 
-/* Social Media TEST
+/* Social Media TEST */
 #social_media {
     text-align: center;
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding:0 20px;
 }
 #social_media i {
-    color: #545454;
+    color: #4d4d4d;
     font-size: 180%;
     padding-right: 40px;
     
-} */
+} 
 
 /* Tablets and larger */
 @media screen and (min-width: 768px) {
     section {
         margin: 0 10%;
+     }
+     #social_media i {
+        font-size: 250%;
      }
 }
 

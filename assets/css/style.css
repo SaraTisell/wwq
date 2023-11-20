@@ -31,7 +31,8 @@ li {
 
 .rulesContent {
     background-color: #ccf8ff;
-    margin: 15% auto;
+    margin: auto;
+    margin-top: 50px;
     padding: 10px 10px 0 0;
     border: 2px solid #0CC0DF;
     width: 75%; 
@@ -198,6 +199,7 @@ footer {
      #social_media i {
         font-size: 250%;
      }
+    
 }
 
 /* Desktop and larger */

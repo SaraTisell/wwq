@@ -15,21 +15,21 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 #### Navigation
 
 * Header
- * WWQ logo will contain a link to homepage so the user easily can navigate back home from all pages
+  * WWQ logo will contain a link to homepage so the user easily can navigate back home from all pages
 
 * Body Homepage
- * The user will be able to open up a modal that will show the rules for the quiz.
- * A link to the quiz page will be placed under the rules button.
+  * The user will be able to open up a modal that will show the rules for the quiz.
+  * A link to the quiz page will be placed under the rules button.
 
 * Body Quizpage
- * When the user has completed the quiz links will be shown to give the user the opportunity to play again or go back to the homepage.
+  * When the user has completed the quiz links will be shown to give the user the opportunity to play again or go back to the homepage.
 
 * Footer 
- * The footer will contain social media links that will open in a new tab when clicked by user.
- * By open the link in a new tab will hinder the user to leave the WWQ site when exploring social media.
+  * The footer will contain social media links that will open in a new tab when clicked by user.
+  * By open the link in a new tab will hinder the user to leave the WWQ site when exploring social media.
 
 * Favicon
- * A favicon with an image of the erath from the logo will be added so the user will recognise the site in the tab.
+  * A favicon with an image of the erath from the logo will be added so the user will recognise the site in the tab.
 
  ![Favicon](documents/readme_img/world-wide-quiz-favicon.webp)
 

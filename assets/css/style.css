@@ -170,26 +170,12 @@ show_result .buttons {
     
 }
 
+/* 404 page */
 
-/*.show_result .buttons {
-    display: flex;
-    margin: 20px 0;
+.error h1 {
+    font-size: larger;
+
 }
-
-.show_result .buttons button {
-    margin: 0 10px;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid #007bff;
-    transition: all 0.3s ease;
-
-}*/
 
 
 /*Footer*/

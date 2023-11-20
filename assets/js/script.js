@@ -54,24 +54,21 @@ const quizQuestions = [
         options: ['Central Park', 'Central Perk', 'Central Coffee'],
         answer: 'Central Perk',
     },
-
-
-]
+];
 
 let quizQuestionsIndex = 0;
 let count = 10;
 let timer;
 
 
-
-
-
- // Functions to start the quiz by display questions and options for answers
+/**
+ * Functions to start the quiz by display questions and options for answers
+ * and start timer
+ */
 function startQuiz() {
     startTimer();
     showQuestion();
-    showOptions();
-    
+    showOptions(); 
 }
 
 // Display questions 
@@ -80,7 +77,6 @@ function showQuestion() {
     const questionNum = document.getElementById('question_num');
     questionNum.innerHTML = quizQuestionsIndex +1;
     divQuestion.innerHTML = quizQuestions[quizQuestionsIndex].question;
-
 }
 
 // Display answers options for each question
@@ -93,11 +89,12 @@ function showOptions() {
     option1Btn.innerHTML = quizQuestions[quizQuestionsIndex].options[0];
     option2Btn.innerHTML = quizQuestions[quizQuestionsIndex].options[1];
     option3Btn.innerHTML = quizQuestions[quizQuestionsIndex].options[2];
-
 }
 
-// Buttons click
-// Part borrowed from https://byby.dev/js-add-event-listener
+/**
+ * Buttons click
+ * Part borrowed from https://byby.dev/js-add-event-listener
+ */
 const optionBtn = document.querySelectorAll(".quizOptions");
 
 optionBtn.forEach(function (button) {
@@ -106,20 +103,24 @@ optionBtn.forEach(function (button) {
        checkAnswer(button.textContent);
         
         quizQuestionsIndex++;
+
         if (quizQuestionsIndex < quizQuestions.length) {
             clearInterval(timer);
             count = 10;
             startTimer();
             showQuestion();
-            showOptions();
+            showOptions();      
             
-            
-
         } else {
             showResult();
         }
     });
 });
+
+/**
+ * Check users answer if it correct or incorrect
+ * If correct increse users score, if incorrect decrese users score
+ */
 
 function checkAnswer(selectedAnswer) {
     let correctAnswer = quizQuestions[quizQuestionsIndex].answer;
@@ -131,17 +132,12 @@ function checkAnswer(selectedAnswer) {
         decreseScore();
         console.log('wrong');
     }
-
 }
-
-
 
 /**
  * Timer to count down from 10
  * Move on to the next question if timer runs down to 0
  */ 
-
-
 function startTimer() {
  //Part borrowed from https://www.shecodes.io/athena/52336-how-to-create-a-countdown-timer-in-javascript 
 
@@ -167,8 +163,6 @@ function startTimer() {
         }
     }, 1000);
 }
-
-
 
 /**
  * Function to increser score for every right answer the user gets

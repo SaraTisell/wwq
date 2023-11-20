@@ -174,7 +174,10 @@ show_result .buttons {
 }
 
 /* 404 page */
-
+.error {
+    text-align: center;
+    margin: 30px;
+}
 .error h1 {
     font-size: larger;
 }
@@ -214,9 +217,4 @@ footer {
         font-size: 250%;
      }
     
-}
-
-/* Desktop and larger */
-@media screen and (min-width: 1200px) {
-   
 }

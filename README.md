@@ -76,6 +76,8 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 * The user can either play the quiz again by clicking the link that will load the quiz page and the quiz will start over.
 * Or click the link back to the home page.
 
+![Results](documents/readme_img/wwq-results.webp)
+
 
 
 

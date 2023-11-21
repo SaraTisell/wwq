@@ -185,7 +185,8 @@ The live link is found here: https://saratisell.github.io/wwq/
   * Code for how to add a eventlisteners to options buttons were borrowed from this site.
 * https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
   * Code to show the result after the quiz is complete was borrowed from this site.
-* Function to increse user score borrowed from Love Maths Walkthrough Project
+* Function to increse user score borrowed from Love Maths Walkthrough Project.
+* HTML for social media links and favicon implementing was borrowed from the Love Running Project.
 
 ### Content
 * https://www.ef.com/wwen/blog/language/questions-virtual-pub-quiz/

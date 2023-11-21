@@ -53,6 +53,7 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
   
 
 ![WWQ home page](documents/readme_img/wwq-homepage.webp)
+**Rules**
 ![Rules](documents/readme_img/wwq-rules.webp)
 
 ##### Quiz Page
@@ -73,6 +74,7 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 
 
 ![Quiz page](documents/readme_img/wwq-quizpage.webp)
+**Timer**
 ![Timer](documents/readme_img/wwq-timer.webp)
 
 ###### Results

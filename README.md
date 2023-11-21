@@ -103,6 +103,10 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 ![Wireframe tablet quiz page](documents/readme_img/wireframe-wwq-gamepage-tablet.webp)
 ![Wireframe mobile quiz page](documents/readme_img/wireframe-wwq-gamepage-mobile.webp)
 
+### Colorscheme
+
+![WWQ colorscheme](documents/readme_img/world-wide-quiz-color-scheme.webp)
+
 
 
 

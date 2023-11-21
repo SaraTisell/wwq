@@ -157,6 +157,8 @@ Sans-serif font is used due to its advantage for accessibility and imported from
 
 ## Testing
 
+### Browsers
+
 WWQ website were tested on these browsers: 
 
 * Chrome
@@ -183,6 +185,13 @@ No issues was found.
   * Works correct, open up modal when clicked and hides when clicked on the x icon or outside the modal.
 * Option buttons
   * Works correct and takes the user to next the question or displays results if quiz is completed.
+
+### Lighthouse Testing
+
+![Lighthouse home page mobile](documents/readme_img/wwq-lighthouse-mobile.webp)
+![Lighthouse home page desktop](documents/readme_img/wwq-lighthouse-desktop.webp)
+![Lighthouse quiz page mobile](documents/readme_img/wwq-lighthouse-quiz-mobile.webp)
+![Lighthouse quiz page desktop](documents/readme_img/wwq-lighthouse-quiz-desktop.webp)
 
 ## Deployment
 The site was deployed to GitHub pges thorugh these steps:

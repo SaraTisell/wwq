@@ -249,3 +249,6 @@ The live link is found here: https://saratisell.github.io/wwq/
 * https://www.ef.com/wwen/blog/language/questions-virtual-pub-quiz/
   * Questions and answers for the quiz was borrowed from this site.
 
+### Support
+* My mentor Gareth McGirr for vise advice and support through my project.
+

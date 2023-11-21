@@ -193,6 +193,20 @@ No issues was found.
 ![Lighthouse quiz page mobile](documents/readme_img/wwq-lighthouse-quiz-mobile.webp)
 ![Lighthouse quiz page desktop](documents/readme_img/wwq-lighthouse-quiz-desktop.webp)
 
+### W3C HTML Validator
+
+Website HTML were tested through both uri and text input and showed no error.
+
+![W3C HTML home page](documents/readme_img/wwq-w3c-html-index-uri.webp)
+![W3C HTML quiz page](documents/readme_img/wwq-w3c-html-quiz-uri.webp)
+![W3C HTML 404 page](documents/readme_img/wwq-w3c-html-404-uri.webp)
+
+### W3C CSS Validator (Jigsaw)
+
+Website CSS were tested through both uri and text input and showed no error, but one warning.
+![W3C CSS](documents/readme_img/wwq-w3c-css.webp)
+![W3C CSS Warning](documents/readme_img/wwq-w3c-css-warnings.webp)
+
 ## Deployment
 The site was deployed to GitHub pges thorugh these steps:
 * In the GitHub repository, navigate to the Settings tab.

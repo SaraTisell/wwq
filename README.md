@@ -207,6 +207,14 @@ Website CSS were tested through both uri and text input and showed no error, but
 ![W3C CSS](documents/readme_img/wwq-w3c-css.webp)
 ![W3C CSS Warning](documents/readme_img/wwq-w3c-css-warnings.webp)
 
+### WAVE
+
+Wave accessibility tool showed no error.
+
+![Wave home page](documents/readme_img/wwq-wave-index.webp)
+![Wave quiz page](documents/readme_img/wwq-wave-quiz.webp)
+![Wave 404 page](documents/readme_img/wwq-wave-404.webp)
+
 ## Deployment
 The site was deployed to GitHub pges thorugh these steps:
 * In the GitHub repository, navigate to the Settings tab.

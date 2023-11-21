@@ -163,7 +163,7 @@ WWQ website were tested on these browsers:
 * Firefox
 * Microsoft Edge
 
-WWQ website were tested on these devices through DevTool
+WWQ website were tested on these additional devices through DevTool
 * Chrome
   * iPhone pro 12
   * Galaxy Tab S4
@@ -173,6 +173,16 @@ WWQ website were tested on these devices through DevTool
 * Microsoft Edge
   * Noki N9
   * iPad pro
+
+No issues was found.
+
+* Responsive through all pages.
+* The design is consistent and correct thorug all pages.
+* Navigation is correct and no broken links.
+* Rules button
+  * Works correct, open up modal when clicked and hides when clicked on the x icon or outside the modal.
+* Option buttons
+  * Works correct and takes the user to next the question or displays results if quiz is completed.
 
 ## Deployment
 The site was deployed to GitHub pges thorugh these steps:

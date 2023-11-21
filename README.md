@@ -10,19 +10,17 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 
 ### Site wide
 
-![WWQ-homepage](documents/readme_img/wwq-homepage.webp)
-
 #### Navigation
 
 * Header
-  * WWQ logo will contain a link to homepage so the user easily can navigate back home from all pages
+  * WWQ logo will contain a link to home page so the user easily can navigate back home from all pages.
 
 * Body Homepage
   * The user will be able to open up a modal that will show the rules for the quiz.
   * A link to the quiz page will be placed under the rules button.
 
 * Body Quizpage
-  * When the user has completed the quiz links will be shown to give the user the opportunity to play again or go back to the homepage.
+  * When the user has completed the quiz links will be shown to give the user the opportunity to play again or go back to the home page.
 
 * Footer 
   * The footer will contain social media links that will open in a new tab when clicked by user.
@@ -33,6 +31,13 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 
  ![Favicon](documents/readme_img/world-wide-quiz-favicon.webp)
 
+* 404 page
+  * A link back to the home page will be implemented on the 404 page.
+
+*Home Page*
+
+
+![WWQ-homepage](documents/readme_img/wwq-homepage.webp)
 
 
 

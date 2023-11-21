@@ -153,6 +153,17 @@ Sans-serif font is used due to its advantage for accessibility and imported from
 * Javascript
   * To develope functions to the site.
 
+## Testing
+
+## Deployment
+The site was deployed to GitHub pges thorugh these steps:
+* In the GitHub repository, navigate to the Settings tab.
+* From the menu on left select 'Pages'
+* From the source section drop-down menu, select the Main Branch
+* Click 'Save'
+* A live link to the webpage will be found under environments
+
+The live link is found here: https://saratisell.github.io/wwq/
 
 
 
@@ -162,7 +173,8 @@ Sans-serif font is used due to its advantage for accessibility and imported from
 
 
 
-### Credits
+
+## Credits
 https://www.ef.com/wwen/blog/language/questions-virtual-pub-quiz/
 For quiz questions content
 

@@ -88,8 +88,20 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 * Add function to display which question the user answered corrct/wrong on the result section.
 * Implement more questions.
 
+## Design
 
+### Wireframe
+*As the site were build it come clear that the design could be improved to make it more user friendly.*
 
+-Home page 
+![Wireframe desktop home page](documents/readme_img/wireframe-wwq-homepage-desktop.webp)
+![Wireframe tablet home page](documents/readme_img/wireframe-wwq-homepage-tablet.webp)
+![Wireframe mobile home page](documents/readme_img/wireframe-wwq-homepage-mobile.webp)
+
+-Quiz page
+![Wireframe desktop quiz page](documents/readme_img/wireframe-wwq-gamepage-desktop.webp)
+![Wireframe tablet quiz page](documents/readme_img/wireframe-wwq-gamepage-tablet.webp)
+![Wireframe mobile quiz page](documents/readme_img/wireframe-wwq-gamepage-mobile.webp)
 
 
 

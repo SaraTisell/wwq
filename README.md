@@ -81,6 +81,14 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 
 ![Results](documents/readme_img/wwq-results.webp)
 
+### Features left to implement
+
+* Function to save and display highscore from all users.
+* Possibility for the user to create a username and save their quiz history and score.
+* Add function to display which question the user answered corrct/wrong on the result section.
+* Implement more questions.
+
+
 
 
 

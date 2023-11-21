@@ -186,6 +186,10 @@ No issues was found.
 * Option buttons
   * Works correct and takes the user to next the question or displays results if quiz is completed.
 
+### Bugs
+
+No know bugs were found during the testing.
+
 ### Lighthouse Testing
 
 ![Lighthouse home page mobile](documents/readme_img/wwq-lighthouse-mobile.webp)

@@ -15,6 +15,8 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 * Header
   * WWQ logo will contain a link to home page so the user easily can navigate back home from all pages.
 
+![WWQ logo](documents/readme_img/world-wide-quiz-logo.webp)
+
 * Body Homepage
   * The user will be able to open up a modal that will show the rules for the quiz.
   * A link to the quiz page will be placed under the rules button.

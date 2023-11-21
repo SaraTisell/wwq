@@ -112,6 +112,49 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 Sans-serif font is used due to its advantage for accessibility and imported from Google fonts
 * Prompt - For headings and content
 
+### Responsiveness
+
+* The WWQ site will be fully responsive and can be used on different devices and screen sizes.
+
+## Technologies Used
+
+* HTML
+  * The main language to develope the structure of the website.
+* CSS
+  * Styling for the website was written with cusom CSS in seperate file style.css.
+* Javascript
+ * The functions were written with javascript. Functions for gquiz page were written in a seperate file. Functions for modal on home page were implemented by script tag at the bottom of the body.
+* Codeanywhere
+  * IDE used to develope website.
+* Gitpod
+  * IDE Used to develope website.
+* Git
+  * Used to push and commit code.
+* GitHub
+  * To source code and deploy using Git pages.
+* Balsamiq
+  * Used to design wireframes.
+* Canva
+  * Used to design logo, favicon and make colorscheme.
+* Favicon.io
+  * Used to create favicon file
+* Pixelied.com
+  * Used to convert png images to webp.
+* Font Awesome
+  * Used to implement icons.
+* Google Fonts
+  * Used to import fonts
+
+### Languages
+* HTML
+  * To develope website structure.
+* CSS
+  * To give the site cusom styling.
+* Javascript
+  * To develope functions to the site.
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 # WWQ - World Wide Quiz
 
-World Wide Quiz or WWQ for short is a webapplication build with Javascript where the user will try their knowlegdge by answering 10 different questions of mixed genre. 
+World Wide Quiz or WWQ for short is a webapplication build with Javascript where the user will try their knowlegdge by answering 10 different questions of mixed genre.
 
 ![Mockup](documents/readme_img/wwq-mockup.webp)
 
@@ -17,19 +17,19 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 
 ![WWQ logo](documents/readme_img/world-wide-quiz-logo.webp)
 
-* Body Homepage
+* Body Home page
   * The user will be able to open up a modal that will show the rules for the quiz.
   * A link to the quiz page will be placed under the rules button.
 
-* Body Quizpage
+* Body Quiz page
   * When the user has completed the quiz links will be shown to give the user the opportunity to play again or go back to the home page.
 
 * Footer 
-  * The footer will contain social media links that will open in a new tab when clicked by user.
+  * The footer will contain social media links that will open in a new tab when clicked by the user.
   * By open the link in a new tab will hinder the user to leave the WWQ site when exploring social media.
 
 * Favicon
-  * A favicon with an image of the erath from the logo will be added so the user will recognise the site in the tab.
+  * A favicon with an image of the erath from the logo will be added so the user will recognise the site in the tab of the browser.
 
  ![Favicon](documents/readme_img/world-wide-quiz-favicon.webp)
 
@@ -52,7 +52,7 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 * Link to go to the quiz page and start the quiz directly.
   
 
-![WWQ-homepage](documents/readme_img/wwq-homepage.webp)
+![WWQ home page](documents/readme_img/wwq-homepage.webp)
 
 ##### Quiz Page
 
@@ -66,7 +66,7 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 * Question
   * The questions will be of mixed genre and displayed for the user.
 * Options
-  * Each question will have three options the user can choose from. only ONE is correct.
+  * Each question will have three options the user can choose from. Only ONE is correct.
   * When one option is collected, the user will be moved to the next question.
   * If the user have answered all 10 questions and the quiz is completed the results will be displayed.
 
@@ -125,7 +125,7 @@ Sans-serif font is used due to its advantage for accessibility and imported from
 * CSS
   * Styling for the website was written with cusom CSS in seperate file style.css.
 * Javascript
- * The functions were written with javascript. Functions for gquiz page were written in a seperate file. Functions for modal on home page were implemented by script tag at the bottom of the body.
+  * The functions were written with javascript. Functions for gquiz page were written in a seperate file. Functions for modal on home page were implemented by script tag at the bottom of the body in index.html.
 * Codeanywhere
   * IDE used to develope website.
 * Gitpod
@@ -134,17 +134,17 @@ Sans-serif font is used due to its advantage for accessibility and imported from
   * Used to push and commit code.
 * GitHub
   * To source code and deploy using Git pages.
-* Balsamiq
+* [Balsamiq](https://balsamiq.com/wireframes/desktop/#)
   * Used to design wireframes.
-* Canva
+* [Canva](https://www.canva.com/)
   * Used to design logo, favicon and make colorscheme.
-* Favicon.io
+* [Favicon.io](https://favicon.io/)
   * Used to create favicon file
-* Pixelied.com
+* [Pixelied.com](https://pixelied.com/convert/png-converter/png-to-webp)
   * Used to convert png images to webp.
-* Font Awesome
+* [Font Awesome](https://fontawesome.com/)
   * Used to implement icons.
-* Google Fonts
+* [Google Fonts](https://fonts.google.com/)
   * Used to import fonts
 
 ### Languages
@@ -197,7 +197,7 @@ No know bugs were found during the testing.
 ![Lighthouse quiz page mobile](documents/readme_img/wwq-lighthouse-quiz-mobile.webp)
 ![Lighthouse quiz page desktop](documents/readme_img/wwq-lighthouse-quiz-desktop.webp)
 
-### W3C HTML Validator
+### [W3C HTML Validator](https://validator.w3.org/)
 
 Website HTML were tested through both uri and text input and showed no error.
 
@@ -205,19 +205,19 @@ Website HTML were tested through both uri and text input and showed no error.
 ![W3C HTML quiz page](documents/readme_img/wwq-w3c-html-quiz-uri.webp)
 ![W3C HTML 404 page](documents/readme_img/wwq-w3c-html-404-uri.webp)
 
-### W3C CSS Validator (Jigsaw)
+### [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 Website CSS were tested through both uri and text input and showed no error, but one warning.
 ![W3C CSS](documents/readme_img/wwq-w3c-css.webp)
 ![W3C CSS Warning](documents/readme_img/wwq-w3c-css-warnings.webp)
 
-### JShint Validator
+### [JShint Validator](https://jshint.com/)
 
 Jshint showed no error.
 
 ![Jshint](documents/readme_img/wwq-jshint.webp)
 
-### WAVE
+### [WAVE](https://wave.webaim.org/)
 
 Wave accessibility tool showed no error.
 

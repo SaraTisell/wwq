@@ -175,19 +175,19 @@ The live link is found here: https://saratisell.github.io/wwq/
 
 
 ## Credits
-https://www.ef.com/wwen/blog/language/questions-virtual-pub-quiz/
-For quiz questions content
 
-https://www.shecodes.io/athena/52336-how-to-create-a-countdown-timer-in-javascript 
-For timer function
+### Code
+* https://www.shecodes.io/athena/52336-how-to-create-a-countdown-timer-in-javascript 
+  * Code for the timer function was borrowed from this site.
+* https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
+  * Code for question array syntax was borrowed from this site.
+* https://byby.dev/js-add-event-listener
+  * Code for how to add a eventlisteners to options buttons were borrowed from this site.
+* https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
+  * Code to show the result after the quiz is complete was borrowed from this site.
+* Function to increse user score borrowed from Love Maths Walkthrough Project
 
-https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
-For question array syntax
+### Content
+* https://www.ef.com/wwen/blog/language/questions-virtual-pub-quiz/
+  * Questions and answers for the quiz was borrowed from this site.
 
-https://byby.dev/js-add-event-listener
-For add event listeners to buttons
-
-https://www.codingnepalweb.com/quiz-app-with-timer-javascript/
-To show result after quiz
-
-Function to increse user score borrowed from Love Maths Walkthrough Project

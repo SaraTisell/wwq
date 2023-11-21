@@ -207,6 +207,12 @@ Website CSS were tested through both uri and text input and showed no error, but
 ![W3C CSS](documents/readme_img/wwq-w3c-css.webp)
 ![W3C CSS Warning](documents/readme_img/wwq-w3c-css-warnings.webp)
 
+### JShint Validator
+
+Jshint showed no error.
+
+![Jshint](documents/readme_img/wwq-jshint.webp)
+
 ### WAVE
 
 Wave accessibility tool showed no error.

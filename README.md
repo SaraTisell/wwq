@@ -36,8 +36,20 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 
 *Home Page*
 
+* Content 
+  * Welcome text and short description about the site.
+  * Button for opening the rules in an modal.
+  * Link to go to the quiz page and start the quiz directly.
+  
 
 ![WWQ-homepage](documents/readme_img/wwq-homepage.webp)
+
+
+*Quiz Page*
+
+* The user will be challenged with 10 different questions, where each question has three options and one correct answer.
+  * The user has 10 seconds to answer each question before it self moving to the next question and no score will be collected.
+  * 
 
 
 

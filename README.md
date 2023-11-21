@@ -68,6 +68,14 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 
 ![Quiz page](documents/readme_img/wwq-quizpage.webp)
 
+###### Results
+
+*Content*
+* After the quiz is completed the results will be displayed for the user.
+* The users total score will be displayed.
+* The user can either play the quiz again by clicking the link that will load the quiz page and the quiz will start over.
+* Or click the link back to the home page.
+
 
 
 

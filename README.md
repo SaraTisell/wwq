@@ -52,7 +52,18 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 ##### Quiz Page
 
 *Content*
-
+* Timer
+  * Will start direct when a question is displayed and count down from 10.
+  * Will make the quiz to move on to the next question when counted down to 0.
+  * If the quiz is completed the results will be displayed.
+* Question heding
+  * Will show the user which question they are at.
+* Question
+  * The questions will be of mixed genre and displayed for the user.
+* Options
+  * Each question will have three options the user can choose from. only ONE is correct.
+  * When one option is collected, the user will be moved to the next question.
+  * If the user have answered all 10 questions and the quiz is completed the results will be displayed.
 
 
 ![Quiz page](documents/readme_img/wwq-quizpage.webp)

@@ -157,6 +157,23 @@ Sans-serif font is used due to its advantage for accessibility and imported from
 
 ## Testing
 
+WWQ website were tested on these browsers: 
+
+* Chrome
+* Firefox
+* Microsoft Edge
+
+WWQ website were tested on these devices through DevTool
+* Chrome
+  * iPhone pro 12
+  * Galaxy Tab S4
+* Firefox 
+  * Galaxy s20 Android 11
+  * iPad iPadOS 14.7.1
+* Microsoft Edge
+  * Noki N9
+  * iPad pro
+
 ## Deployment
 The site was deployed to GitHub pges thorugh these steps:
 * In the GitHub repository, navigate to the Settings tab.
@@ -166,15 +183,6 @@ The site was deployed to GitHub pges thorugh these steps:
 * A live link to the webpage will be found under environments
 
 The live link is found here: https://saratisell.github.io/wwq/
-
-
-
-
-
-
-
-
-
 
 ## Credits
 

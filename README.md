@@ -107,6 +107,12 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 
 ![WWQ colorscheme](documents/readme_img/world-wide-quiz-color-scheme.webp)
 
+### Typography
+
+Sans-serif font is used due to its advantage for accessibility and imported from Google fonts
+* Prompt - For headings and content
+
+
 
 
 

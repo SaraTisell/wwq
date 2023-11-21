@@ -32,7 +32,10 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
  ![Favicon](documents/readme_img/world-wide-quiz-favicon.webp)
 
 * 404 page
-  * A link back to the home page will be implemented on the 404 page.
+  * A custom designed 404 page to match the rest of the site will be implemeted.
+  * A link back to the home page will be displayed on the 404 page so the user easily can navigate back to home page.
+
+  ![404-page](documents/readme_img/wwq-404page.webp)
 
 ##### Home Page
 
@@ -77,6 +80,8 @@ World Wide Quiz or WWQ for short is a webapplication build with Javascript where
 * Or click the link back to the home page.
 
 ![Results](documents/readme_img/wwq-results.webp)
+
+
 
 
 
